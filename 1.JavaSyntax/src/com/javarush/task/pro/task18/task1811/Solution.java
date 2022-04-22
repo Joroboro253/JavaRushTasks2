@@ -25,7 +25,7 @@ public class Solution {
     }
 
     public static Stream<String> getStreamFromArrayList(ArrayList<String> list) {
-        //напишите тут ваш код
+
         return Stream.empty();
     }
 
