@@ -18,7 +18,7 @@ class Cat {
     private String name;
     private int speed;
 
-    private Cat(String name, int speed) {
+    public Cat(String name, int speed) {
         this.name = name;
         this.speed = speed;
     }
@@ -27,7 +27,7 @@ class Cat {
         return name;
     }
 
-    private int getSpeed() {
+    public int getSpeed() {
         return speed;
     }
 
@@ -40,7 +40,7 @@ class Dog {
     private String name;
     private int speed;
 
-    private Dog(String name, int speed) {
+    public Dog(String name, int speed) {
         this.name = name;
         this.speed = speed;
     }
@@ -49,7 +49,7 @@ class Dog {
         return name;
     }
 
-    private int getSpeed() {
+    public int getSpeed() {
         return speed;
     }
 
