@@ -16,5 +16,14 @@ public class Solution {
         void refresh();
     }
 
-    //напишите тут ваш класс
+    public class Screen implements Selectable, Updatable{
+
+        public void onSelect() {
+
+        }
+
+        public void refresh(){
+
+        }
+    }
 }
