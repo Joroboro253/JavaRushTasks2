@@ -39,6 +39,7 @@ public class Solution {
 
     class Subordinate implements Secretary {
         public void use(Person person) {
+            //dfd
         }
 
         public void startToWork() {
