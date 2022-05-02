@@ -7,8 +7,6 @@ import java.util.regex.Pattern;
 */
 
 public class Solution {
-    private static final String HEX = "0123456789abcdef";
-
 
     public static void main(String[] args) {
         String binaryNumber = "100111010000";
@@ -18,24 +16,7 @@ public class Solution {
     }
 
     public static String toHex(String binaryNumber) {
-        //int decimalNumber = 0;
-        String hex = "";
-
-        if(binaryNumber == null || binaryNumber == "") {
-            return "";
-        }
-        if((binaryNumber.length() % 4) != 0){
-            String formBinaryNumber = String.format("%01s", binaryNumber); // добавление нулей
-
-           // char
-            for (int i = 0; i < formBinaryNumber.length() / 4; i++) {
-                //char hx = HEX.charAt(binaryNumber % 2);
-            }
-        }
-
-
-
-
+        //напишите тут ваш код
         return null;
     }
 
